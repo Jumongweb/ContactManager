@@ -1,2 +1,8 @@
-package com.Jumong.dtos.response;public class UpdateUserResponse {
+package com.Jumong.dtos.response;
+
+import lombok.Data;
+
+@Data
+public class UpdateUserResponse {
+    private String message;
 }

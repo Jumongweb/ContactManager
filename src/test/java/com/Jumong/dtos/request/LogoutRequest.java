@@ -1,2 +1,8 @@
-package com.Jumong.dtos.request;public class LogoutRequest {
+package com.Jumong.dtos.request;
+
+import lombok.Data;
+
+@Data
+public class LogoutRequest {
+    private String username;
 }

@@ -1,2 +1,8 @@
-package com.Jumong.dtos.request;public class DeleteUserRequest {
+package com.Jumong.dtos.request;
+
+import lombok.Data;
+
+@Data
+public class DeleteUserRequest {
+    private String username;
 }
