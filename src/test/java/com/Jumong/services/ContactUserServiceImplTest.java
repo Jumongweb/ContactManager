@@ -454,4 +454,6 @@ public class ContactUserServiceImplTest {
         assertTrue(userService.findByUsername("username2").isLoggedIn());
         assertTrue(userService.findByUsername("username3").isLoggedIn());
     }
+
+
 }

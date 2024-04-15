@@ -5,6 +5,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -18,5 +19,5 @@ public class User {
     private String lastname;
     private boolean isLoggedIn;
     @DBRef
-    private List<Contact> contacts;
+    private List<Contact> contacts = new ArrayList<Contact>();
 }

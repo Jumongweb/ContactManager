@@ -23,4 +23,5 @@ public interface UserService {
     LoginResponse login(LoginRequest loginRequest);
 
     LogoutResponse logout(LogoutRequest logoutRequest);
+
 }

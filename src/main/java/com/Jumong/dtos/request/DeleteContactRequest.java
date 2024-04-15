@@ -3,6 +3,7 @@ package com.Jumong.dtos.request;
 import lombok.Data;
 
 @Data
-public class LogoutRequest {
+public class DeleteContactRequest {
     private String username;
+    private String firstname;
 }
